@@ -9,6 +9,9 @@ setInterval(()=>
     time=a.getHours() +':'+ ''+a.getMinutes() + ':' + ''+ a.getSeconds();
     date=a.toLocaleDateString(undefined,option);
     document.getElementById('time').innerHTML=time +' '+ 'on'+' ' + date;
+    if (a.getSeconds()<9){
+        "0"+a.getSeconds() 
+    }
 },1000
 
 )
