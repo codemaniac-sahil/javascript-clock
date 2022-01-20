@@ -10,7 +10,7 @@ setInterval(()=>
     date=a.toLocaleDateString(undefined,option);
     document.getElementById('time').innerHTML=time +' '+ 'on'+' ' + date;
     if (a.getSeconds()<9){
-        "0"+a.getSeconds() 
+       a.getSeconds()= "0"+a.getSeconds() 
     }
 },1000
 
