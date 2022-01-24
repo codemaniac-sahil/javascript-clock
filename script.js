@@ -26,14 +26,14 @@ setInterval(() => {
 )
 a = new Date();
 s = a.getHours()
-if (s > 12 && s<16) {
+if (s >= 12 && s<16) {
     document.getElementById('time').innerHTML = " Afternoon";
     document.body.style = "background-image:linear-gradient(red,yellow);";
 }else  if (s > 16 && s <24) {
     document.getElementById('time').innerHTML = " Evening";
     document.body.style = "background-image:linear-gradient(black,gray);";
 }
-else if(s>=0 && s<=12){
+else if(s>=0 && s<12){
     document.getElementById('time').innerHTML = " Morning";
     document.body.style = "background-image:linear-gradient(orange,yellow);";
 }
