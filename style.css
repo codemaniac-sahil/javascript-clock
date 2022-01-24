@@ -33,7 +33,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
 }
 .container h1{
     font-size: 80px;
