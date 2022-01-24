@@ -33,4 +33,8 @@ if (s >= 12 && s<16) {
     document.getElementById('time').innerHTML = " Evening";
     document.body.style = "background-image:linear-gradient(black,gray);";
 }
+else if (s>=0 && s<12){
+     document.getElementById('time').innerHTML = " Morning";
+    document.body.style = "background-image:linear-gradient(yellow,orange);";
+}
 
