@@ -8,7 +8,8 @@ body{
 .navbar{
     background-color: #242424;
     display: flex;
-    position: sticky;
+     position: sticky;
+
 
 }
 .navbar img{
