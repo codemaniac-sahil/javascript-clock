@@ -1,17 +1,16 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #1A2930;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    color: #1A2930;
 }
+
 .navbar{
-    background-color: #242424;
+    background-color: #0C1512;
     display: flex;
-     position: sticky;
-    top:0;
-
-
+    position: sticky;
+    top:0px;
 }
 .navbar img{
     width: 5%;
@@ -28,21 +27,36 @@ body{
     text-decoration: none;
     color: white;
     padding-left: 10px;
-  
 }
 .container{
+    /* position: relative; */
+    background-color: #d6b53c;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    width: 850px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 75vh;
+    top: 50px;
+    border: solid 10px #0C1512;
+    border-radius: 20px;
 }
+
 .container h1{
+    /* margin-top: 0px; */
     font-size: 80px;
 }
 #clock,#timep{
+    margin-top: 10px;
     font-size: 40px;
+    font-weight:500;
 }
 .container p{
+    margin-top: 10px;
     font-size: 30px;
+    font-weight: 500;
 }
