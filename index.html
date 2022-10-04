@@ -21,11 +21,22 @@
 
        </ul>
    </div> 
-   <div class="container">
-       <h1>Javascript clock</h1>
-       <p>Good<span id="time"></span></p>
-       <p id="timep">Time : <span id="clock"></span></p>
-       <p id="timep">Date : <span id="day"></span></p>
+   <div class="main">
+    <div class="container">
+        <h1>Javascript clock</h1>
+        <p>Good<span id="time"></span></p>
+        <p id="timep">Time : <span id="clock"></span></p>
+        <p id="timep">Date : <span id="day"></span></p>
+    </div>
+    <div class="container-2">
+        <h1>Alarm</h1>
+        <div class="alarm">
+            <div><p>Hours</p><select id="hours" name="hours"></select></div>
+            <div><p>Minutes</p><select id="mins" name="mins"></select></div>
+            <button id="setAlarm">Set Alarm</button>
+        </div>
+        <h3 class="para">Your alarm shows here</h3>
+    </div>
    </div>
    <script src="js/script.js"></script>
 </body>

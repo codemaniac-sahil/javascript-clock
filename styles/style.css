@@ -4,14 +4,13 @@ body{
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    overflow-y: hidden;
 }
 .navbar{
     background-color: #242424;
     display: flex;
      position: sticky;
     top:0;
-
-
 }
 .navbar img{
     width: 5%;
@@ -21,15 +20,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 .navlinks a{
     text-decoration: none;
     color: white;
     padding-left: 10px;
-  
 }
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -38,7 +43,7 @@ body{
     height: 100vh;
 }
 .container h1{
-    font-size: 80px;
+    font-size: 60px;
 }
 #clock,#timep{
     font-size: 40px;
@@ -46,3 +51,50 @@ body{
 .container p{
     font-size: 30px;
 }
+
+/* alarm */
+.container-2 {
+    padding: 10px 30px 10px 30px;
+    margin-right: 5px;
+    border-radius: 25px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.alarm{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    /* background: black; */
+}
+.alarm button {
+    cursor: pointer;
+    height: 65px;
+    width: 80px;
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.alarm button:hover{
+    background-color: skyblue;
+    /* color: white; */
+}
+.alarm select{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+@media only screen and (max-width: 1000px) {
+    body{
+        overflow-y: auto;
+    }
+    .main{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .container-2{margin-bottom: 20px;}
+  }
