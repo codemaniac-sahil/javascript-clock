@@ -26,13 +26,13 @@ a = new Date();
 s = a.getHours()
 if (s<12){
     document.getElementById('time').innerHTML = " Morning";
-    document.body.style = "background-image:linear-gradient(yellow,orange);";
+    // document.body.style = "background-image:linear-gradient(yellow,orange);";
 }else if (s<16) {
     document.getElementById('time').innerHTML = " Afternoon";
-    document.body.style = "background-image:linear-gradient(red,yellow);";
+    // document.body.style = "background-image:linear-gradient(red,yellow);";
 }else{
     document.getElementById('time').innerHTML = " Evening";
-    document.body.style = "background-image:linear-gradient(black,gray);";
+    // document.body.style = "background-image:linear-gradient(black,gray);";
 }
 
 // code for alarm
@@ -90,13 +90,3 @@ setAlarm.addEventListener('click',()=>{
         clearInterval(z);
     }
 })
-
-
-
-
-
-
-
-
-
-
