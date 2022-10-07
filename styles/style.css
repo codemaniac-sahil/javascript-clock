@@ -6,10 +6,9 @@ body{
     padding: 0;
     background-color: #1A2930;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #1A2930;
+    color:  #1A2930;
     overflow-y: hidden;
 }
-
 .navbar{
     background-color: #0C1512;
     display: flex;
@@ -20,7 +19,6 @@ body{
     width: 70px;
     padding: 5px 10px 5px 100px;
 }
-
 .logo{
     width: 550px;
     text-align: center;
@@ -32,6 +30,7 @@ body{
     list-style: none;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .navlinks li{
     text-align: center;
@@ -52,11 +51,6 @@ body{
     background-color: #1A2930;
 }
 
-.weather{
-    width: 200px;
-}
-
-
 .main{
     display: flex;
     flex-direction: row;
@@ -64,7 +58,6 @@ body{
     width: 100%;
     justify-content: space-around;
 }
-
 
 .container{
     background-color: #d6b53c;
@@ -82,26 +75,21 @@ body{
     border: solid 10px #0C1512;
     border-radius: 20px;
 }
-
-.container h1{
+h1{
     font-size: 60px;
 }
 #clock,#timep{
-    margin-top: 10px;
+    font-size: 40px;
     font-size: 40px;
     font-weight:500;
 }
 .container p{
-    margin-top: 10px;
     font-size: 30px;
-    font-weight: 500;
 }
 
 a{
-
     text-decoration: none;
 }
-
 /* alarm */
 .container-2 {
     margin-top: 50px;
@@ -152,4 +140,8 @@ a{
     .container-2{margin-bottom: 20px;}
     }
 
-    
+/* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; */
