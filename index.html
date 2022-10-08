@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,9 @@
     <title>Javascript clock </title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    <div class="navbar">
+    <nav class="navbar">
         <a href="index.html" class="logo">
             <img src="assets/images/Js-clock-logo.png" alt="logo">
             <h2>Js Clock</h2>
@@ -18,24 +20,29 @@
             <li><a href="https://quizzical-goldstine-706e61.netlify.app/">Stopwatch</a></li>
             <li><a href="https://elegant-hawking-69bc75.netlify.app/">Weather app</a></li>
         </ul>
-    </div> 
+    </nav>
     <div class="main">
-    <div class="container">
-        <h1>Javascript clock</h1>
-        <p>Good<span id="time"></span></p>
-        <p id="timep">Time : <span id="clock"></span></p>
-        <p id="timep">Date : <span id="day"></span></p>
-    </div>
-    <div class="container-2">
-        <h1>Alarm</h1>
-        <div class="alarm">
-            <div><p>Hours</p><select id="hours" name="hours"></select></div>
-            <div><p>Minutes</p><select id="mins" name="mins"></select></div>
-            <button id="setAlarm">Set Alarm</button>
+        <div class="container">
+            <h1>Javascript clock</h1>
+            <p>Good<span id="time"></span></p>
+            <p id="timep">Time : <span id="clock"></span></p>
+            <p id="timep">Date : <span id="day"></span></p>
         </div>
-        <h3 class="para">Your alarm shows here</h3>
-    </div>
+        <div class="container-2">
+            <h1>Alarm</h1>
+            <div class="alarm">
+                <div>
+                    <p>Hours</p><select id="hours" name="hours"></select>
+                </div>
+                <div>
+                    <p>Minutes</p><select id="mins" name="mins"></select>
+                </div>
+                <button id="setAlarm">Set Alarm</button>
+            </div>
+            <h3 class="para">Your alarm shows here</h3>
+        </div>
     </div>
     <script src="js/script.js"></script>
 </body>
+
 </html>
