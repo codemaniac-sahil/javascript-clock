@@ -13,11 +13,18 @@ body{
     background-color: #0C1512;
     display: flex;
     position: sticky;
-    top:0;
+    top:0px;
 }
 .navbar img{
     width: 70px;
     padding: 5px 10px 5px 100px;
+}
+.logo{
+    width: 550px;
+    text-align: center;
+    display: flex;
+    color: white;
+    justify-content: center;
 }
 .navlinks{
     list-style: none;
@@ -25,10 +32,23 @@ body{
     align-items: center;
     justify-content: center;
 }
+.navlinks li{
+    text-align: center;
+
+}
 .navlinks a{
+    display: flex;
+    width: 130px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: white;
     padding-left: 10px;
+}
+.navlinks a:hover{
+    color: #d6b53c;
+    background-color: #1A2930;
 }
 
 .main{
@@ -67,6 +87,9 @@ h1{
     font-size: 30px;
 }
 
+a{
+    text-decoration: none;
+}
 /* alarm */
 .container-2 {
     margin-top: 50px;
