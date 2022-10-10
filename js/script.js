@@ -90,3 +90,24 @@ setAlarm.addEventListener('click',()=>{
         clearInterval(z);
     }
 })
+
+// Theme Selector Javascript Code
+const root = document.querySelector('html');
+const themes = document.querySelector('.theme')
+const themebox = document.querySelector('.theme_box')
+
+themes.addEventListener('click', event => {
+    console.log("select theme")
+    themebox.classList.toggle('open');
+})
+
+console.log("now select theme")
+const themeList = document.querySelectorAll('.theme_list li');
+themeList.forEach(theme =>{
+    console.log("list of  temee")
+  theme.addEventListener('click', item => {
+    console.log("choose theme")
+    root.classList.replace(root.className, item.target.className);
+    themebox.classList.remove('open');
+  });
+});

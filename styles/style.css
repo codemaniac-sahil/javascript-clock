@@ -1,13 +1,14 @@
 * {
     transition: all 0.5s ease;
+    padding: 0;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-color: #36505c;
+    background-color: var(--body-bgcolor);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #1A2930;
+    color: var(--color);
     overflow-y: hidden;
 }
 
@@ -68,7 +69,7 @@ body {
 }
 
 .container {
-    background-color: #d6b53c;
+    background-color: var(--body-container);
     margin-top: 50px;
     margin-right: auto;
     margin-bottom: auto;
@@ -80,7 +81,7 @@ body {
     justify-content: center;
     height: 75vh;
     top: 50px;
-    border: solid 10px #0C1512;
+    border: solid 10px var(--body-conatiner-boder);
     border-radius: 20px;
 }
 
@@ -107,10 +108,10 @@ a {
 .container-2 {
     margin-top: 50px;
     height: 75vh;
-    background-color: #d6b53c;
+    background-color: var(--body-container);
     padding: 10px 30px 10px 10px;
     margin-right: 5px;
-    border: solid 10px #0C1512;
+    border: solid 10px var(--body-conatiner-boder);
     border-radius: 20px;
     margin-left: auto;
 }
@@ -135,7 +136,7 @@ a {
 }
 
 .alarm button:hover {
-    background-color: skyblue;
+    background-color: rgb(253, 22, 22);
     /* color: white; */
 }
 
@@ -186,3 +187,90 @@ a {
     align-items: center;
     justify-content: center;
     height: 100vh; */
+
+/*  Adding some theme theme */
+.default:root{
+    --body-bgcolor:  #36505c;
+    --color: #1A2930;
+    --body-container: #d6b53c;
+    --body-conatiner-boder: #0C1512;
+}
+
+.dark:root{
+    --body-bgcolor:  #000001;
+    --color: #ffffff;
+    --body-container: #02040eec;
+    --body-conatiner-boder: #0C1512;
+}
+
+.ocean:root{
+    --body-bgcolor: #095ca0;
+    --color: #fafafa;
+    --body-container: #03092a;
+    --body-conatiner-boder: #171736;
+}
+
+/* Theme Css */
+.theme_box{
+    visibility: hidden;
+    height: 0;
+    width: 120px;
+    padding: .3rem;
+    background-color: rgba(250, 250, 250, .8);
+    font-size: 1rem;
+    list-style: none;
+    box-shadow: 3px 3px 3px 0 rgb(0, 0, 0, .2);
+    position: absolute;
+    left: 0;
+    top: 2rem;
+    margin-left: 62%;
+    transition: all 0.1s;
+    padding-left: 20px;
+    color: #000001;
+}
+.theme_box.open{
+    margin-top: 10px;
+    visibility: visible;
+    height: 150%;
+    border-radius: 8px;
+}
+.theme_box li {
+    margin-bottom: .5rem;
+    cursor: pointer;
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+.theme_box li:last-child {
+    margin-bottom: 0;
+}
+
+.theme_box li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 6px;
+    right: 0;
+    transition: width 0.3s;
+}
+
+.theme_box li:hover::after {
+    width: 20%;
+}
+
+.theme_box.open li {
+    opacity: 1;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* code ends here */
