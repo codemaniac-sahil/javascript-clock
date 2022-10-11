@@ -141,12 +141,21 @@ a {
 }
 
 .alarm select {
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 50px;
     cursor: pointer;
     border: 2px solid black;
-}
+    border-radius: 4px;
+    background-color: darkgreen;
+    color: white;
+    outline: none;
+    padding: 0.2em;
 
+}
+.alarm select:hover {
+    border: 3px solid white;
+    outline: none;
+}
 @media only screen and (max-width: 1000px) {
     body {
         overflow-y: auto;
