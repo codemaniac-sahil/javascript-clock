@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Todo list</title>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<link rel="stylesheet" type="text/css" href="n1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+	<h1>Todo List</h1>
+	<p id="first">Get it done today!</p>
+	<input id="userinput" type="text" placeholder="enter items">
+	<button id="enter">Enter</button>
+	<ul>
+	</ul>
+</div>
+	<script type="text/javascript" src="js.js"></script>
+</body>
+</html>
