@@ -9,5 +9,6 @@
 ![GitHub all releases](https://img.shields.io/github/downloads/codemaniac-sahil/javascript-clock/total?label=Downloads&logo=GitHub&style=flat-square)
 
 
-# Top Language
+# Top Language and Language Count
 ![GitHub top language](https://img.shields.io/github/languages/top/codemaniac-sahil/javascript-clock?logo=GitHub&style=flat-square)
+![GitHub language count](https://img.shields.io/github/languages/count/codemaniac-sahil/javascript-clock?color=%2300FF00&logo=GitHub&style=for-the-badge)
