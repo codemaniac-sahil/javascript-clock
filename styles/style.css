@@ -70,19 +70,16 @@ body {
 
 .container {
     background-color: var(--body-container);
-    margin-top: 50px;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    width: 850px;
+    width: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 75vh;
-    top: 50px;
     border: solid 10px var(--body-conatiner-boder);
     border-radius: 20px;
+    margin: 50px 0 50px 50px;
+    padding: 0 30px;
 }
 
 h1 {
@@ -106,14 +103,13 @@ a {
 
 /* alarm */
 .container-2 {
-    margin-top: 50px;
+    margin: 50px;
     height: 75vh;
     background-color: var(--body-container);
-    padding: 10px 30px 10px 10px;
-    margin-right: 5px;
+    padding: 0 30px;
     border: solid 10px var(--body-conatiner-boder);
     border-radius: 20px;
-    margin-left: auto;
+    width: 25%;
 }
 
 .alarm {
@@ -127,9 +123,9 @@ a {
 
 .alarm button {
     cursor: pointer;
-    height: 65px;
+    height: 52px;
     width: 80px;
-    margin-top: 40px;
+    margin-top: 75px;
     border: 2px solid black;
     border-radius: 8px;
     transition: 0.3s;
@@ -149,7 +145,7 @@ a {
     background-color: darkgreen;
     color: white;
     outline: none;
-    padding: 0.2em;
+    padding: 1.2em;
 
 }
 .alarm select:hover {
