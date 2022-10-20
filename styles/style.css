@@ -121,7 +121,7 @@ a {
     /* background: black; */
 }
 
-.alarm button {
+/* .alarm button {
     cursor: pointer;
     height: 52px;
     width: 80px;
@@ -134,7 +134,7 @@ a {
 .alarm button:hover {
     background-color: rgb(253, 22, 22);
     /* color: white; */
-}
+
 #hours:hover{
     transform:translateY(-0.2em);
     cursor:pointer;
@@ -144,20 +144,23 @@ a {
     cursor:pointer;
 }
 #setAlarm{
+    padding: 0.3em;
      background: none;
      height: 65px;
-     width: 120px;
+     width: 300px;
      margin-top: 80px;
     color:#1b10ac;
     border:2px solid;
-    font-size:1em;
+    font-size:0.9em;
     transition:color 0.25s, background-color 0.25s,box-shadow 0.25s,transform 0.25s, border-color 0.25s;
 }
 #setAlarm:hover{
      border-color:#dc650a;
+     padding: 0.3em;
      height: 65px;
-     width: 120px;
+     width: 3000px;
      margin-top: 80px;
+     font-size: 0.9em;
     color:rgb(195, 10, 10);
     background-color: #05bad6;
     box-shadow:0 0.5em 0.5em -0.4em #e44e0e;
