@@ -149,21 +149,21 @@ a {
      height: 65px;
      width: 300px;
      margin-top: 80px;
-    color:#1b10ac;
+    color:#291fbb;
     border:2px solid;
     font-size:0.9em;
     transition:color 0.25s, background-color 0.25s,box-shadow 0.25s,transform 0.25s, border-color 0.25s;
 }
 #setAlarm:hover{
-     border-color:#dc650a;
+     border-color:rgb(232, 21, 21);
      padding: 0.3em;
      height: 65px;
      width: 3000px;
      margin-top: 80px;
      font-size: 0.9em;
-    color:rgb(195, 10, 10);
-    background-color: #05bad6;
-    box-shadow:0 0.5em 0.5em -0.4em #e44e0e;
+    color:rgb(232, 21, 21);
+    background-color: #000607;
+    box-shadow:0 0.5em 0.5em -0.4em rgb(232, 21, 21);
     transform:translateY(-0.1em);
     cursor:pointer;
 }
