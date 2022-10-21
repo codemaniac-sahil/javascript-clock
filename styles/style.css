@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--body-bgcolor);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-family: 'Audiowide' ,sans-serif;
     color: var(--color);
     overflow-y: hidden;
 }
@@ -121,7 +121,7 @@ a {
     /* background: black; */
 }
 
-.alarm button {
+/* .alarm button {
     cursor: pointer;
     height: 52px;
     width: 80px;
@@ -134,8 +134,39 @@ a {
 .alarm button:hover {
     background-color: rgb(253, 22, 22);
     /* color: white; */
-}
 
+#hours:hover{
+    transform:translateY(-0.2em);
+    cursor:pointer;
+}
+#mins:hover{
+    transform:translateY(-0.2em);
+    cursor:pointer;
+}
+#setAlarm{
+    padding: 0.3em;
+     background: none;
+     height: 65px;
+     width: 300px;
+     margin-top: 80px;
+    color:#1b10ac;
+    border:2px solid;
+    font-size:0.9em;
+    transition:color 0.25s, background-color 0.25s,box-shadow 0.25s,transform 0.25s, border-color 0.25s;
+}
+#setAlarm:hover{
+     border-color:#dc650a;
+     padding: 0.3em;
+     height: 65px;
+     width: 3000px;
+     margin-top: 80px;
+     font-size: 0.9em;
+    color:rgb(195, 10, 10);
+    background-color: #05bad6;
+    box-shadow:0 0.5em 0.5em -0.4em #e44e0e;
+    transform:translateY(-0.1em);
+    cursor:pointer;
+}
 .alarm select {
     width: 120px;
     height: 50px;
