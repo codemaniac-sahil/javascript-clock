@@ -144,28 +144,24 @@ a {
     cursor:pointer;
 }
 #setAlarm{
-    padding: 0.3em;
-     background: none;
-     height: 65px;
-     width: 300px;
-     margin-top: 80px;
-    color:#291fbb;
-    border:2px solid;
-    font-size:0.9em;
-    transition:color 0.25s, background-color 0.25s,box-shadow 0.25s,transform 0.25s, border-color 0.25s;
+   padding:0.5vw;
+   position: relative;
+   background:rgb(226, 213, 207);
+   font-size:0.8rem;
+   font-weight:bold;
+    font-family: 'Audiowide' ,sans-serif;
+    border-radius:5px;
+    transform:translateY(6.5vh);
+   
+    transition:0.25s;
 }
 #setAlarm:hover{
-     border-color:rgb(232, 21, 21);
-     padding: 0.3em;
-     height: 65px;
-     width: 3000px;
-     margin-top: 80px;
-     font-size: 0.9em;
-    color:rgb(232, 21, 21);
-    background-color: #000607;
-    box-shadow:0 0.5em 0.5em -0.4em rgb(232, 21, 21);
-    transform:translateY(-0.1em);
-    cursor:pointer;
+   background-color:rgb(255, 0, 0);
+   box-shadow:2px 2px 10px rgba(0, 0, 0, 0.396);
+   color:white;
+
+
+  
 }
 .alarm select {
     width: 120px;
